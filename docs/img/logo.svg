@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Símbolo de Metriq: lupa sobre barras, girada 45°.
+       Idéntico a frontend/public/favicon.svg del producto. -->
+  <defs>
+    <linearGradient id="metriq-placa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#metriq-placa)"/>
+  <g transform="rotate(45 128 128)">
+    <circle cx="88" cy="128" r="44" fill="none" stroke="#fff" stroke-width="20"/>
+    <circle cx="88" cy="128" r="16" fill="#facc15"/>
+    <rect x="120" y="117" width="92" height="22" rx="9" fill="#fff"/>
+    <rect x="176" y="138" width="14" height="28" rx="4" fill="#fff"/>
+    <rect x="198" y="138" width="12" height="24" rx="4" fill="#fff"/>
+  </g>
+</svg>
